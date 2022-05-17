@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div  style="text-align:center">
+  <h1>
+    Bienvenido a {{ title }}!
+  </h1>
+  <h2>Cervezas Artezanales</h2>
+  <img width="130" alt="Duff logo" src="assets/images.png" >
+</div>
+<br>
+<div class="container text-center">
+  <button (click)="Listar()" class="btn btn-info">Listar</button>
+  <button (click)="Nuevo()" class="btn btn-info" style="margin-left: 10px;">Nuevo</button> 
+</div>
+<a href="">Inicio</a>
+<hr>
+<router-outlet></router-outlet>
